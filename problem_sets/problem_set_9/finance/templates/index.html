@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block main %}
+    <h1>Hi {{ username }}!</h1>
+    <br>
+    <h2 class="cash"> You have: {{ cash | usd }}</h2>
+    <h2 class="grand_total"> Your grand total is {{ grand_total | usd }}</h2>
+    <br>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Stock</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Price</th>
+                <th scope="col">Total value</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in rows %}
+            <tr>
+                <th scope="row">{{ row.number }}</th>
+                <td>{{ row.stock }}</td>
+                <td>{{ row.amount }}</td>
+                <td>{{ row.price | usd }}</td>
+                <td>{{ row.total_value | usd }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+
+{% endblock %}

@@ -1,0 +1,105 @@
+.first_warning
+{
+    background-color: darkslategray;
+    text-align: center;
+    position: relative;
+}
+
+.enter_button
+{
+    background-color: yellow;
+    border: none;
+    color: red;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    width: 23%;
+    height: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-62%, -60%);
+}
+
+.body_of_homepage
+{
+    background-color: darkslategray;
+    text-align: center;
+    position: relative;
+}
+
+.welcome_sign
+{
+    width: 95%;
+    border: 15px solid red;
+    background-color: grey;
+    padding: 50px;
+    margin: 20px;
+    font-size: 32px;
+    color: black;
+}
+
+.card
+{
+    display: inline-block;
+}
+
+.body_funny
+{
+    background-color: darkslategray;
+    text-align: center;
+    position: relative;
+    color: black;
+}
+
+.button_incorrect
+{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.button_correct
+{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.gedicht
+{
+    color: black;
+    background-color: grey;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    top: -1%;
+    left: 0%;
+    position: absolute;
+
+}
+
+.zaziki
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}

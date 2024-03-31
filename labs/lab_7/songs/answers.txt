@@ -1,0 +1,2 @@
+The average energy equals 0.65906, the average valence 0.484443, lastly the average danceability equals 0.71646.
+I think this calculation of the aura is not very accurate, since such important parameters as tempo and loudness are not included in the faomula.

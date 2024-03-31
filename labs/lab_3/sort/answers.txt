@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: the only algorithm that worked actually faster on the sorted file in comparison with others (O(n*n) != Ω(n)).
+
+sort2 uses: merge sort
+
+How do you know?: it worked faster than the third algorithm. Since n * log(n) < n * n, this one must be merge sort.
+
+sort3 uses: selection sort
+
+How do you know?: it worked slower than the second algorithm. Since n * n > n * log(n), this one must be selection sort.

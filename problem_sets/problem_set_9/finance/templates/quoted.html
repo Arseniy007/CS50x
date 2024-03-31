@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}
+ Look up a stock’s current price
+{% endblock %}
+
+{% block main %}
+   <h1>
+    The Price for the {{ name }} is:
+   </h1>
+   <h2>
+    {{ price | usd }}
+   </h2>
+{% endblock %}

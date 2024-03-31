@@ -1,0 +1,13 @@
+cs50
+Flask
+Flask-Session
+requests
+
+
+CREATE TABLE books
+(title TEXT,
+author TEXT,
+status TEXT,
+reader INT,
+FOREIGN KEY (reader) REFERENCES users(id)
+);
